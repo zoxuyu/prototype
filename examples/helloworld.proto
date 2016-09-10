@@ -1,0 +1,5 @@
+#! zoxuyu.prototype.v1
+#! zoxuyu.zero.v1
+ Program "Hello World"
+    Write {"Hello World!"}
+EndProgram
