@@ -1,3 +1,3 @@
 @echo off
-py prototype.py ../examples/helloworld.proto
+py prototype.py ../examples/operators.proto
 pause > nul

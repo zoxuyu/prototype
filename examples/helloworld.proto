@@ -1,5 +1,7 @@
-#! zoxuyu.prototype.v1
 #! zoxuyu.zero.v1
- Program "Hello World"
-    Write {"Hello World!"}
+Program "Hello World"
+    function: ~Print (<text>) =>
+        Write {"<text>"}
+    EndFunction
+    Print {"Hallo Welt!"} == Exec {<~Print()>, "Hallo Welt!"} == ::prototype::execute_function("Print", "Hallo Welt!") == Write {"Hallo Welt!"}
 EndProgram

@@ -1,0 +1,19 @@
+&&mod
+type: creepy =>
+    ~~init (attr1) =>
+        string: <this>::creepied = attr1
+    EndInit
+    Do get () =>
+        string: return = <this>::creepied
+    EndDo
+EndType
+function: new () =>
+    creepy: return = ~new("Test")
+EndFunction
+
+function ~new(attr1) =>
+    creepy: return = ::engine::parseLine("object: вы creepy{'<attr1'}", "here")
+EndFunction
+? Create-Object-Token = вы (Small Kyrillic W + Small Kyrillic Yeru), may also be accessed via ::token::create-object
+
+new()::get() -> Test
