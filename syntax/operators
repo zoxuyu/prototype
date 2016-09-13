@@ -8,22 +8,22 @@ Program "Operatoren"
     ? Type-Convertion
     num: Zahl = "3.14" !num
     ? And-Toolkit
-    &cos()
-    &sin()
-    &tan()
-    &cot()
-    &arccos()
-    &arcsin()
-    &arctan()
-    &arccot()
-    &pow()
-    &pi() = 3.14...
-    &e() = 2.71...
-    &hex()
-    &bin()
-    &num()
-    &rad()
-    &deg()
+    &cos{}
+    &sin{}
+    &tan{}
+    &cot{}
+    &arccos{}
+    &arcsin{}
+    &arctan{}
+    &arccot{}
+    &pow{}
+    &pi{} = 3.14...
+    &e{} = 2.71...
+    &hex{}
+    &bin{}
+    &num{}
+    &rad{}
+    &deg{}
     ? Mathematical Operation
     10 + 4  = 14 (plus)
     10 - 4  =  6 (minus)
@@ -40,25 +40,26 @@ Program "Operatoren"
     ? Identifiers
     <a>    = Variable 'a'
     <~a>   = Variable 'a', private
-    <a()>  = Function 'a'
-    <~a()> = Function 'a', private
+    <a{}>  = Function 'a'
+    <~a{}> = Function 'a', private
     ? Equality
-    (object|string|num|list|path|bin|heX): name = value
+    (object|string|num|list|path|bin|hex): name = value
     ? Boolean
     smaller, << smaller
     greater, >> greater
     equal, ==   equal
     diff, !!    different
     !  not
-    () condition-limiters
+    {} condition-limiters
     :  TypeOf (var : type)
     ? Keywords
     
     ? Require "Name" from "Path"
     ? Program "Name"
     ? EndProgram
-    ? If (cond)
-    ? EndIf
+    If (cond)
+      
+    EndIf
     
     ? Lists
     []          Empty List
