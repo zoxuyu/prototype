@@ -1,3 +1,8 @@
+----
+**Leider unterstützen wir diese GitHub-Seite nicht mehr. Eine Alternative wird bald angeboten.**
+
+----
+
 #Prototype
 ##Was ist das?
 Prototype ist eine Programmiersprache, die durch ihre Einfachkeit und Flexibilität heraussticht
